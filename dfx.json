@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "ant-colony-icp-backend": {
+      "main": "src/ant-colony-icp-backend/main.mo",
+      "type": "motoko"
+    },
+    "ant-colony-icp-frontend": {
+      "dependencies": [
+        "ant-colony-icp-backend"
+      ],
+      "source": [
+        "src/ant-colony-icp-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "ant-colony-icp-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
