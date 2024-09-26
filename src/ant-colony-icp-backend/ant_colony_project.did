@@ -1,0 +1,3 @@
+service : {
+    antColonyOptimization: (nat, nat) -> (vec nat) query;
+}
