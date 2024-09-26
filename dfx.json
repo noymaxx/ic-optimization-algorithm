@@ -2,19 +2,11 @@
   "canisters": {
     "ant-colony-icp-backend": {
       "main": "src/ant-colony-icp-backend/main.mo",
+      "candid": "src/ant-colony-icp/ant_colony_project.did",
       "type": "motoko"
-    },
-    "ant-colony-icp-frontend": {
-      "dependencies": [
-        "ant-colony-icp-backend"
-      ],
-      "source": [
-        "src/ant-colony-icp-frontend/dist"
-      ],
-      "type": "assets",
-      "workspace": "ant-colony-icp-frontend"
     }
   },
+
   "defaults": {
     "build": {
       "args": "",
